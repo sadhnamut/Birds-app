@@ -1,0 +1,57 @@
+/* Add custom CSS here */
+.container {
+    max-width: 800px !important ;
+    
+    margin-bottom: 40px !important;
+    padding: 20px;
+   
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent url(./images/82.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main{
+   
+    margin-bottom: 90px;
+    /* height: 90vh; */
+    background-image: linear-gradient(to right, rgb(0, 251, 255), white,  rgb(0, 251, 255));
+}
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  textarea {
+    resize: none;
+  }
+  .h55{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive !important;
+  }
+  label{
+    font-family: "Dancing Script", cursive !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+ .htr a{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive !important;
+    font-weight: bold;
+  }
+  
+a {
+  font-family: "Dancing Script", cursive;
+  color: black!important;
+  font-optical-sizing:  auto;
+  font-weight: bold;
+  font-size: larger;
+  font-style: normal;
+}

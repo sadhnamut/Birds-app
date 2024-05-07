@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.0rem) !important;
+    padding-left: var(--bs-gutter-x, 0.0rem) !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main{
+   
+    margin-bottom: 70px;
+    /* height: 90vh; */
+    background-image: linear-gradient(to right, rgb(0, 251, 255), white,  rgb(0, 251, 255));
+}
+
+.carousel-item {
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+a {
+    font-family: "Dancing Script", cursive;
+    color: black!important;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: larger;
+    font-style: normal;
+}
+.head{
+    font-family: "Dancing Script", cursive !important;
+    color: black!important;
+    font-optical-sizing: auto !important;
+    font-weight: bold !important;
+    font-size: larger !important;
+    font-style: normal !important;
+    margin-bottom: 10px !important;
+}
+.for-index span{
+    background-color: white;
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+}
+.display-4{
+    font-weight: bold;
+    font-family: "Dancing Script", cursive !important;
+}
